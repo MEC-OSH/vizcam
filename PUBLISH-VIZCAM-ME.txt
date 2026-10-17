@@ -1,0 +1,48 @@
+VIZCAM.ME | PRODUCTION DEPLOYMENT CHECKLIST
+============================================
+UPDATED: 17 OCTOBER 2026
+CANONICAL WEBSITE: https://www.vizcam.me
+CUSTOMER ENQUIRIES: service@vizcam.me
+HR / RECRUITMENT: hr@vizcam.me
+CALL / WHATSAPP: +91 89438 54151
+
+1) FIRST: VERIFY OWNERSHIP & HOSTING
+   - Confirm you own vizcam.me in your domain registrar dashboard.
+   - Confirm you have web hosting with custom HTML file upload support (for example GoDaddy cPanel Linux Hosting).
+   - Domain purchase alone is not website hosting.
+
+2) UPLOAD YOUR WEBSITE
+   - GoDaddy -> My Products -> Web Hosting -> Manage -> cPanel Admin -> File Manager.
+   - If vizcam.me is an addon domain, use its own document root, not an unrelated website folder.
+   - Upload ALL FILES AND FOLDERS *inside* VIZCAM-Website/ into the assigned document root:
+       index.html, css/, js/, assets/, robots.txt, sitemap.xml, .htaccess
+   - If using File Manager, upload the site files as a ZIP and use Extract in that document root.
+   - IMPORTANT: index.html should be directly in your document root, not nested under VIZCAM-Website/.
+
+3) LINK DNS (REGISTRAR)
+   - Obtain the hosting IP and nameserver information from your actual hosting provider.
+   - Keep existing MX, SPF, DKIM and DMARC records intact to protect email delivery.
+   - With GoDaddy DNS hosting: set root (@) A to your hosting IP, and set www CNAME to @ when compatible with host guidance.
+   - If using a CDN/static hosting service, follow its exact custom-domain DNS instructions instead.
+   - DNS changes can require time to propagate.
+
+4) HTTPS / CANONICAL DOMAIN
+   - Enable an SSL certificate that covers both vizcam.me and www.vizcam.me.
+   - Set https://www.vizcam.me as the preferred live address; redirect the other variants if your hosting supports this.
+   - Do not force HTTPS before the certificate is issued, or the website could become inaccessible.
+
+5) SET UP BOTH MAILBOXES (SEPARATELY)
+   - Create service@vizcam.me and hr@vizcam.me with GoDaddy Professional Email, Microsoft 365, Zoho Mail or another mail host.
+   - Configure your provider's MX, SPF, DKIM, and ideally DMARC in DNS. Do not blindly replace mail records when changing website DNS.
+   - Send and receive a real test message at both addresses.
+   - The contact form currently opens WhatsApp rather than sending email. HR and customer-service email links open the visitor's mail app.
+
+6) TEST AFTER PUBLISHING
+   - Homepage and 7 service cards on desktop/mobile.
+   - WhatsApp button to +91 89438 54151, quick-quote form, click-to-call link.
+   - Click customer service and HR emails; gallery filters and lightbox.
+   - Check https://www.vizcam.me/robots.txt and /sitemap.xml.
+   - Verify illustration disclaimer; replace service illustrations with approved actual project photos when available.
+
+NOT YET DEPLOYED: This download contains publish-ready files, not an active hosting installation.
+Publishing requires access to your domain DNS AND a hosting provider/account.
