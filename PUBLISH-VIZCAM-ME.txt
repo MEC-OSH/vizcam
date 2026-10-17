@@ -3,7 +3,7 @@ VIZCAM.ME | PRODUCTION DEPLOYMENT CHECKLIST
 UPDATED: 17 OCTOBER 2026
 CANONICAL WEBSITE: https://www.vizcam.me
 CUSTOMER ENQUIRIES: service@vizcam.me
-HR / RECRUITMENT: hr@vizcam.me
+GENERAL ENQUIRIES: info@vizcam.me
 CALL / WHATSAPP: +91 89438 54151
 
 1) FIRST: VERIFY OWNERSHIP & HOSTING
@@ -32,7 +32,7 @@ CALL / WHATSAPP: +91 89438 54151
    - Do not force HTTPS before the certificate is issued, or the website could become inaccessible.
 
 5) SET UP BOTH MAILBOXES (SEPARATELY)
-   - Create service@vizcam.me and hr@vizcam.me with GoDaddy Professional Email, Microsoft 365, Zoho Mail or another mail host.
+   - Create service@vizcam.me and info@vizcam.me with GoDaddy Professional Email, Microsoft 365, Zoho Mail or another mail host.
    - Configure your provider's MX, SPF, DKIM, and ideally DMARC in DNS. Do not blindly replace mail records when changing website DNS.
    - Send and receive a real test message at both addresses.
    - The contact form currently opens WhatsApp rather than sending email. HR and customer-service email links open the visitor's mail app.

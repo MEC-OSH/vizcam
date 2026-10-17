@@ -29,7 +29,7 @@ CONTACT DETAILS
 Contact: Sahil
 Phone / WhatsApp: +91 89438 54151
 Customer service: service@vizcam.me
-HR and careers: hr@vizcam.me
+General enquiries: info@vizcam.me
 IMPORTANT: Both email addresses must be created and activated with an email provider separately; updating website links does NOT create the mailboxes.
 
 CUSTOMIZE THE GALLERY

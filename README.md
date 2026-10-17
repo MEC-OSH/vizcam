@@ -20,7 +20,7 @@ Premium static business website for VIZCAM in Manjeri, Kerala. Designed for host
 
    Replace `YOUR_GITHUB_USERNAME` with the account that owns the GitHub repository (not the repo name). For example, account `exampleuser` would use `exampleuser.github.io`. There is **no** `/vizcam-website` path in the DNS value. The four `A` records are GitHub Pages' official IPv4 values, *not* GoDaddy hosting IPs.
 
-6. Remove/rewrite old **website-only** conflicting `@` A and `www` CNAME/A records if present. Do NOT change MX, mail-related TXT/SPF/DKIM/DMARC, other email configuration, or domain nameservers casually. `service@vizcam.me` and `hr@vizcam.me` need separate email hosting setup; GitHub Pages does not provide email.
+6. Remove/rewrite old **website-only** conflicting `@` A and `www` CNAME/A records if present. Do NOT change MX, mail-related TXT/SPF/DKIM/DMARC, other email configuration, or domain nameservers casually. `service@vizcam.me` and `info@vizcam.me` need separate email hosting setup; GitHub Pages does not provide email.
 7. When the GitHub Pages DNS check succeeds and an HTTPS certificate is issued, select **Enforce HTTPS** in Settings > Pages. Check https://www.vizcam.me and https://vizcam.me (the second should redirect to the primary domain).
 8. Test gallery filters, mobile navigation, email links, WhatsApp enquiry, images, and the sitemap. You can submit `https://www.vizcam.me/sitemap.xml` to Google Search Console.
 
@@ -32,7 +32,7 @@ GitHub official docs:
 
 ## Contact configuration
 - Customer services: `service@vizcam.me`
-- Careers: `hr@vizcam.me`
+- Careers: `info@vizcam.me`
 - Phone / WhatsApp: `+91 89438 54151`
 - Location: Manjeri, Malappuram, Kerala, India
 
